@@ -5,34 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Enactus FUTO</title>
   <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <h1>Welcome to Enactus FUTO</h1>
-    <p>Seeing Possibilities. Taking Actions. Enabling Progress. YES</p>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <img src="assets/logos/enactus-logo.png" alt="Enactus Logo" class="logo">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero">
+    <h1>Enactus FUTO</h1>
+    <p>Empowering Students. Changing Communities.</p>
+    <a href="#projects" class="btn">Explore Projects</a>
   </header>
 
-  <main>
-    <section id="highlight">
-      <h2>Our Current Projects</h2>
-      <div class="projects-container">
-        <!-- Project cards go here -->
+  <!-- About Preview -->
+  <section id="about" class="fade-in">
+    <h2>About Enactus FUTO</h2>
+    <p>Enactus FUTO is a student-led organization that empowers students to make a difference in their communities through entrepreneurial action, innovation, and sustainable projects.</p>
+  </section>
+
+  <!-- Projects Preview -->
+  <section id="projects" class="fade-in">
+    <h2>Our Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <div class="project-img" style="background-image:url('assets/images/project1.jpg')"></div>
+        <div class="project-info">
+          <h3>Project One</h3>
+          <p>Impacting local communities with sustainable solutions.</p>
+          <a href="#" class="btn-small">Read More</a>
+        </div>
       </div>
-    </section>
-  </main>
+      <div class="project-card">
+        <div class="project-img" style="background-image:url('assets/images/project2.jpg')"></div>
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>Student-driven initiatives improving education access.</p>
+          <a href="#" class="btn-small">Read More</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img" style="background-image:url('assets/images/project3.jpg')"></div>
+        <div class="project-info">
+          <h3>Project Three</h3>
+          <p>Innovative approaches to environmental sustainability.</p>
+          <a href="#" class="btn-small">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Preview -->
+  <section id="contact" class="fade-in">
+    <h2>Contact Us</h2>
+    <p>Get in touch with Enactus FUTO to learn more or collaborate on projects.</p>
+    <a href="contact.html" class="btn">Contact Page</a>
+  </section>
 
   <footer>
     <p>&copy; 2026 Enactus FUTO. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
-
-
