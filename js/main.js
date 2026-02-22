@@ -1,4 +1,3 @@
-// Fade-in sections on scroll
 const faders = document.querySelectorAll('.fade-in');
 const options = { threshold: 0.3 };
 
